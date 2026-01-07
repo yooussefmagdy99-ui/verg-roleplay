@@ -1,0 +1,9 @@
+CREATE TABLE purchases (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  player VARCHAR(50),
+  item VARCHAR(100),
+  price VARCHAR(20),
+  payment VARCHAR(20),
+  status VARCHAR(20),
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
